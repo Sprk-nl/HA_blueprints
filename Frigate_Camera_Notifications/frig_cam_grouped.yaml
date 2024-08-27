@@ -298,7 +298,6 @@ blueprint:
             select:
               options:
                 - default
-                - camera-grouped-frigate-notification
                 - none
               custom_value: true
         sound:
