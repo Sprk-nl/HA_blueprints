@@ -1,6 +1,6 @@
 blueprint:
-  name: Frigate Notifications (0.12.0.4c)
-  author: SgtBatten
+  name: Frigate Notifications (0.1.0.a)
+  author: SPRK
   homeassistant:
     min_version: 2024.6.0
   description: |
@@ -293,7 +293,7 @@ blueprint:
         group:
           name: Group
           description: The group name that will determine if notifications are grouped on your mobile device. If you want notifications grouped by camera, ensure it contains {{camera}}
-          default: "{{camera}}-grouped-frigate-notification{{'-loitering' if loitering}}"
+          default: "{{camera}}-frigate-notification{{'-loitering' if loitering}}"
         sound:
           name: Notification Sound - iOS only (Optional)
           description: You can specify a sound file on your device that will play for the notifications. You will need to import the sound file into Home Assistant.
